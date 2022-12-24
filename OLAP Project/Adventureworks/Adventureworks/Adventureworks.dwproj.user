@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2019</Id>
+            <Name>Adventure Works DW2019</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAg1k1lEMvakG4lkleWcOjtAAAAAAuAAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABEAFcAMgAwADEAOQAAABBmAAAAAQAAIAAAAFv46alc0+ezxktkA9mVryjqaeRoqR7bkMRIefCxxObPAAAAAA6AAAAAAgAAIAAAAPfZGszvj2zmtdKjOQ40GcCS5oRiqJQOdZDKuk6p2gnuEAAAAEOqAFHG1EmJ6VZTk2cGPT1AAAAAovk7SrMLZa+xvnZNanRSbxH0E4s3Ap8cvcErN59GNlF+AEKQw5R+A1AeOi5MUkZhrItAmL+kBbpmOkdg6MLJoA==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2019</Id>
+            <Name>Adventure Works DW2019</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAg1k1lEMvakG4lkleWcOjtAAAAAAuAAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABEAFcAMgAwADEAOQAAABBmAAAAAQAAIAAAAOcdvun8X6TVJ5dKxfLhbSDS+uj5Lx/KkzeaKHSsyZ6nAAAAAA6AAAAAAgAAIAAAAIVbwMj8jG3l4+NEOHrh2nBxqfVrv24oC8jPXYRODa33EAAAAD9gaMCsoPmqVz2yM9UqnqdAAAAAiD0Q1JBKUvgPRuN7rfjtIxZmDv5kQvN/2JVVMb+Qs2DIAwWLcWNMSqcSLzar6eFmQ2YtP6ALZ6T4RPgwn4eNUw==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>LAPTOP-82FILO2M\SQLDEV2019</TargetServer>
+        <TargetDatabase>Adventureworks</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

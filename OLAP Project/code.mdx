@@ -1,0 +1,26 @@
+SELECT [Measures].[Sales Amount] on columns,
+non empty{ 
+filter([Dim Customer].[City].members, [Measures].[Sales Amount]> 100000)
+} ON rows
+FROM [Adventure Works DW2019]
+WHERE [Dim Customer].[English Country Region Name].[United States]
+
+select
+nonempty( [dim customer].[gender].children) on columns,
+( nonempty([dim product].[Model Name].children),
+ nonempty([dim product].[color].children)
+)on rows
+from [Adventure Works DW2019]
+WHERE([Dim Product].[English Product Category Name].Bikes)
+
+select ([order date].[calendar year].members) on columns,
+order([Dim Customer].[City].members,
+ [measures].[order quantity],desc)on rows
+from [Adventure Works DW2019]
+
+
+SELECT
+NONEMPTY([Due Date].[English Month Name].CHILDREN) ON COLUMNS,
+ORDER([Dim Customer].[City].CHILDREN, [MEASURES].[ORDER QUANTITY], DESC) ON ROWS
+FROM[Adventure Works DW2019]
+WHERE( [Due Date].[Calendar Year].&[2013],[Dim Product].[English Product Category Name].Bikes)
